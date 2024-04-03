@@ -1,0 +1,200 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo img {
+    width: 80px; 
+    height: auto; 
+    border-radius: 50%; 
+    margin-right: 10px; 
+}
+
+.logo h1 {
+    margin: 0;
+    font-size: 24px; 
+    font-family: "Noto Sans", sans-serif;
+    color: rgb(150, 38, 41);
+}
+
+body{
+    background-color: rgba(232, 184, 173, 0.4);
+}
+
+.header {
+    display: flex;
+    align-items: center; 
+}
+
+header ul {
+    display: flex;
+    justify-content: space-between;
+}
+
+header ul li {
+    display: inline;
+    margin-right:20px;
+    margin-left: 32px;
+}
+
+@media screen and (max-width: 768px) {
+    header ul li {
+        margin-right: 10px; /* Ajuste a margem direita para telas menores */
+    }
+}
+
+header ul li a {
+    text-decoration: none;
+    font-family: "Noto Sans", sans-serif;
+    color: rgb(150, 38, 41);
+    padding: 10px 10px; 
+    border: 2px solid rgb(150, 38, 41); 
+    border-radius: 16px; 
+    transition: all 0.7s ease; 
+}
+
+header ul li a:hover {
+    background-color: rgb(150, 38, 41); /* Altera a cor de fundo ao passar o mouse */
+    color: white; /* Altera a cor do texto ao passar o mouse */
+}
+
+h3 {
+    color: rgb(150, 38, 41);
+    font-family: "Lora", serif;
+}
+
+.porque {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; 
+    align-items: center; /* Centraliza os itens horizontalmente */
+    text-align: center; /* Centraliza o texto */
+}
+
+.porque img {
+    width: 440px;
+    height: 500px;
+    margin: 24px;
+    border-radius: 8%;
+}
+
+.textopq {
+    width: 100%; /* Garante que o texto ocupe toda a largura disponível */
+    text-align: center; /* Centraliza o texto */
+    margin-top: 20px; /* Adiciona um espaçamento superior para separar o texto da imagem */
+}
+
+.bodegas img {
+    border-radius: 8%;
+}
+
+.container {
+    text-align: center;
+    color: rgb(150, 38, 41);
+}
+#contact .container {
+    display: block;
+}
+
+.contact-methods {
+    text-align: center;
+    margin-top: 16px;
+}
+
+form {
+    display: inline-block;
+    text-align: left;
+}
+
+form input,
+form textarea,
+form button {
+    display: block;
+    width: 320px;
+    margin-bottom: 8px;
+    padding: 8px;
+    border-radius: 12px;
+}
+
+.social-container {
+    text-align: center;
+    margin-top: 20px;
+}
+
+form textarea {
+    resize: none;
+    height: 180px;
+}
+
+form button {
+    background-color: rgba(232, 184, 173, 0.4);
+    color: rgb(150, 38, 41);
+    border: none;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color:rgb(150, 38, 41);
+    color:rgba(232, 184, 173, 0.4);
+}
+
+input:focus, textarea:focus {
+    outline-color: rgb(150, 38, 41);
+}
+
+.social-container {
+    text-align: center; /* Centraliza o texto e o logotipo horizontalmente */
+    margin-top: 20px; /* Adiciona espaçamento superior */
+
+}
+
+.social-links {
+    list-style-type: none; /* Remove os marcadores da lista */
+}
+
+.social-links img {
+    height: 24px;
+    width: auto;
+}
+
+.social-links li {
+    display: inline-block; /* Torna os itens da lista em linha */
+    margin-right: 10px; /* Adiciona espaçamento entre os itens */
+}
+
+.poa {
+    color: rgb(150, 38, 41);
+    font-family: "Lora", serif;
+    text-align: center;
+    padding: 32px;
+}
+
+.poa,
+h2 {
+    padding: 32px;
+}
+
+.gramado {
+    color: rgb(150, 38, 41);
+    font-family: "Lora", serif;
+    text-align: center;
+    padding: 32px;
+}
+
+.gramado,
+h3 {
+    padding: 32px;
+}
+
+.menu {
+    color: rgb(150, 38, 41);
+    font-family: "Lora", serif;
+    text-align: center;
+    padding: 16px;
+}
